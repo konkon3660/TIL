@@ -15,5 +15,3 @@ cd /d "%DST%"
 git add .
 git commit -m "TIL sync %NOW%"
 git push origin main
-
-pause
