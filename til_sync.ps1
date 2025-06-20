@@ -10,9 +10,9 @@ Copy-Item "$src\*" "$dst\" -Recurse -Force
 Set-Location $dst
 git add .
 
-# 커밋 메시지를 UTF-8 파일로 저장dd
+# 커밋 메시지를 UTF-8 파일로 저장
 $now = Get-Date -Format "yyyy-MM-dd HH:mm"
-$commitMessage = "🔄 TIL 자동 동기화: $now"
+$commitMessage = "🔄  TIL auto-sync: $now"
 $msgFile = "$env:TEMP\til_commit_msg.txt"
 $commitMessage | Out-File -FilePath $msgFile -Encoding UTF8
 
