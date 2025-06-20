@@ -1,4 +1,4 @@
-# 경로 설정d
+# 경로 설정
 chcp 65001 > $null
 $src = 'C:\Users\Gram\Desktop\Para\2 Area\TIL(Today I Leared)'
 $dst = 'C:\Users\Gram\Desktop\TIL-Public'
